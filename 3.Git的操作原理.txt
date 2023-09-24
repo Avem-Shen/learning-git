@@ -1,0 +1,9 @@
+Git本地有三个工作区：工作目录（Working Directory）、暂存区（Stage/Index）、资源库（Repository/Git Directory）。如果再加上远程的git仓库（Remote Directory）就可以分为四个工作区域。
+
+
+git的工作流程
+1、在工作目录中添加、修改文件
+2、将需要进行版本管理的文件放入暂存区域——git add
+3、将暂存区域的文件提交到git仓库——git commit
+如果需要推送到远程，就使用git push
+因此，git管理的文件有三种状态：已修改（modified）、已暂存（staged）、已提交（committed）
